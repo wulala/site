@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Alata";
+    src: url('./Alata-Regular.ttf')
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+
+
+body {
+    height: 100vh;
+    line-height: 1.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1em;
+    flex: 1;
+}
+
+img {
+    border-radius: 3px;
+}
+
+
+figcaption {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.6px;
+    font-family: Alata;
+}
+
+
+
+
+.beian {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.beian a {
+    text-decoration: none;
+    color: #aaa;
+    font-weight: 200;
+}
